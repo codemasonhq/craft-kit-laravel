@@ -3,7 +3,7 @@ module.exports = {
     image: 'mysql',
     type: 'service',
     volumes: {
-        '/var/lib/mysql':'/var/lib/mysql'
+        './storage/data/mysql':'/var/lib/mysql'
     },
     ports: ["3306:3306"],
     environment: {
