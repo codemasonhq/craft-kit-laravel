@@ -1,7 +1,8 @@
 module.exports = {
-    name: 'php', 
-    image: 'codemasonhq/php',
-    type: 'instance',
+    name: 'app', 
+    build: '.',
+    base: 'codemasonhq/php', 
+    type: 'service',
     volumes: {
         './':'/app',
     },
