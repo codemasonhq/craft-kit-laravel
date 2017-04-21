@@ -8,8 +8,8 @@ module.exports = {
     ports: ["3306:3306"],
     environment: {
         'MYSQL_DATABASE': 'demo',
-          'MYSQL_USER': 'demo',
-          'MYSQL_PASSWORD': 'secret',
-          'MYSQL_ROOT_PASSWORD': 'root'
+        'MYSQL_USER': 'demo',
+        'MYSQL_PASSWORD': 'secret',
+        'MYSQL_ROOT_PASSWORD': 'root'
     }
 }
