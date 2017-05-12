@@ -45,12 +45,6 @@ Create an application on Codemason for your app
 $ mason create --application laravel-app
 ```
 
-Add updated build script to source control
-```
-$ git add .
-$ git commit -m "Build script"
-```
-
 Push your code to your Codemason Git remote to build it into a Docker image
 ```
 $ git push codemason master 
