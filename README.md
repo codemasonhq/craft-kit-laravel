@@ -1,5 +1,5 @@
 # Craft Kit - Laravel
-This is the official [craft kit](http://mason.ci/docs/craft-kits) for Laravel by [Codemason[(http://mason.ci). 
+This is the official [craft kit](http://mason.ci/docs/craft-kits) for Laravel by [Codemason](http://mason.ci). 
 
 ```
 $ mason craft laravel
