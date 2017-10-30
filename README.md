@@ -1,5 +1,5 @@
 # Craft Kit - Laravel
-This is the official [craft kit](http://mason.ci/docs/craft-kits) for Laravel by [Codemason](http://mason.ci). 
+This is the official [craft kit](http://codemason.io/docs/craft-kits) for Laravel by [Codemason](http://codemason.io). 
 
 ```
 $ mason craft laravel
@@ -7,11 +7,11 @@ $ mason craft laravel
 
 Craft kits let you Dockerize your application with one command. They are an excellent way to ease into building Docker powered apps without having to learn the ins and outs of Docker.
 
-Then with [Codemason](http://mason.ci), you can deploy your app to a server in a matter of minutes!
+Then with [Codemason](http://codemason.io), you can deploy your app to a server in a matter of minutes!
 
 ## Requirements 
 > This guide assumes you have:
-> - Installed the [Mason CLI](http://mason.ci/docs/installation)
+> - Installed the [Mason CLI](http://codemason.io/docs/installation)
 
 ## Configuration
 You will need to ensure you update your environment variables to match what is provided in the `docker-compose.yml` file.
@@ -37,8 +37,17 @@ That's all! You're now running your Laravel application with Docker!
 
 You'll be able to access your application at http://<docker-ip>, where <docker-ip> is the boot2docker ip or localhost if you are running Docker natively.
 
+## Craft `--with`
+You can even swap out the default services the Craft Kit uses by using the `--with` parameter.
+```
+$ mason craft laravel --with="php, postgres"
+```
+- Default: php, mysql
+- Available: php, mysql, mariadb, mongodb, postgres, postgis
+
+
 ## Deployment
-Deploying is just as easy with [Codemason](http://mason.ci). For more detailed instructions, see our [documentation](http://mason.ci/docs/quickstart#deploy-dreams).
+Deploying is just as easy with [Codemason](http://codemason.io). For more detailed instructions, see our [documentation](http://codemason.io/docs/quickstart#deploy-dreams).
 
 Create an application on Codemason for your app
 ```
