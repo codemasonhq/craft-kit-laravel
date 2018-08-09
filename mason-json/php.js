@@ -8,6 +8,5 @@ module.exports = {
     },
     ports: [
         "80:80",
-        "443:443"
     ],
 }
