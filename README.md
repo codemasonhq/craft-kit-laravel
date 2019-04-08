@@ -1,5 +1,5 @@
 # Craft Kit - Laravel
-This is the official [craft kit](http://codemason.io/docs/craft-kits) for Laravel by [Codemason](http://codemason.io). 
+This is the official [craft kit](https://codemason.io/docs/craft-kits) for Laravel by [Codemason](http://codemason.io). 
 
 ```
 $ mason craft laravel
@@ -7,11 +7,11 @@ $ mason craft laravel
 
 Craft kits let you Dockerize your application with one command. They are an excellent way to ease into building Docker powered apps without having to learn the ins and outs of Docker.
 
-Then with [Codemason](http://codemason.io), you can deploy your app to a server in a matter of minutes!
+Then with [Codemason](https://codemason.io), you can deploy your app to a server in a matter of minutes!
 
 ## Requirements 
 > This guide assumes you have:
-> - Installed the [Mason CLI](http://codemason.io/docs/installation)
+> - Installed the [Mason CLI](https://codemason.io/docs/installation)
 
 ## Configuration
 You will need to ensure you update your environment variables to match what is provided in the `docker-compose.yml` file.
@@ -45,11 +45,11 @@ $ mason craft laravel --with="php, postgres"
 
 
 ## Deployment
-Deploying is just as easy with [Codemason](http://codemason.io). For more detailed instructions, see our [documentation](http://codemason.io/docs/quickstart#deploy-dreams).
+Deploying is just as easy with [Codemason](https://codemason.io). For more detailed instructions, see our [documentation](https://codemason.io/docs/quickstart#deploy-dreams).
 
 Create an application on Codemason for your app
 ```
-$ mason create --application laravel-app
+$ mason create laravel-app
 ```
 
 Push your code to your Codemason Git remote to build it into a Docker image
@@ -59,5 +59,5 @@ $ git push codemason master
 
 Deploy
 ```
-$ mason deploy --to laravel-app
+$ mason deploy laravel-app
 ```
