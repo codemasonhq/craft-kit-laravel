@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'mariadb',
+  name: 'mysql',
   image: 'mariadb',
   type: 'service',
   volumes: {

@@ -1,6 +1,6 @@
 module.exports = {
   name: 'laravel',
-  default: ["php", "mysql"],
+  default: ["php", "mariadb"],
   masonJson: {
     php: require('./mason-json/php.js'),
     mysql: require('./mason-json/mysql.js'),
